@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main() {
-    double dc = 0.1;              // Απόσταση cutoff για υπολογισμό πυκνότητας
+    double dc = 0.05;              // Απόσταση cutoff για υπολογισμό πυκνότητας
     int numClusters = 3;         // Πλήθος αναμενόμενων clusters
     std::string filepath = "data/particles.csv";
 
